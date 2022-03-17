@@ -1,0 +1,152 @@
+/* Web Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  font-family: 'nanumgothic';
+  font-size: 13px;
+  color:gray;
+  margin: 0;
+  position: relative;
+}
+
+.header {
+text-align: center;
+font-weight: normal;
+color: black;
+font-size: 13px;
+border-bottom: 1px solid lightgrey;
+position: relative;
+}
+
+#xbox {
+  position: absolute;
+  right: 13px;
+  top: 0;
+}
+
+.content {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#guide-text {
+  color: black;
+  font-size: 15px;
+}
+
+.guide img {
+  vertical-align: middle;
+}
+
+.basic-login-find a {
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+
+.login {
+  width: 94%;
+  position: absolute;
+  left: 50%;
+  top: 270%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+}
+
+a.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  border-radius: 2px;
+  padding: 12px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+a.btn.btn1 {
+  font-size: 17px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  background-color: #2F80ED;
+  color: white;
+}
+
+a.find {
+  text-decoration: none;
+}
+
+span.or-txt {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+span.or-txt:before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  background-color: lightgray;
+  width: 44%;
+  height: 1px;
+}
+
+span.or-txt:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  background-color: lightgray;
+  width: 44%;
+  height: 1px;
+}
+
+.login-options a:nth-of-type(1) {
+  border:1px solid gray;
+}
+
+.login-options a:nth-of-type(2) {
+  border:1px solid #166FE5;
+}
+
+.login-options a:nth-of-type(3) {
+  border:1px solid #19CE60;
+}
+
+.login-options a:nth-of-type(4) {
+  border:1px solid #FAE100;
+}
+
+.login-options a:nth-of-type(1):before {
+  content: url(LDH_LION_img/icon_google.png);
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}
+
+.login-options a:nth-of-type(2):before {
+  content: url(LDH_LION_img/icon_facebook.png);
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}
+
+.login-options a:nth-of-type(3):before {
+  content: url(LDH_LION_img/icon_naver.png);
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}
+
+.login-options a:nth-of-type(4):before {
+  content: url(LDH_LION_img/icon_kakao.png);
+  position: absolute;
+  left: 12px;
+  top: 8px;
+}
